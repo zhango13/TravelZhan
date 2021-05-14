@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" type="text/css" href="css/tools.css">
+</head>
+<body>
+ <p style="padding-left:3em;margin-top: 5em;font-size:150%;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">To use this converter:<br>
+   1) Write the number that you want to convert;<br>
+   2)Choose the currency from which you want to convert;<br>
+   3) In the second editbar you will see the cost of trip in KZT;<br>
+   <span style="color:red;">(WARNING IT WORKS LONLY TO CONVERT FOR KZT CURRENCY )</span><br>
+   <span style="color:red;">(WHERE 1USD=386.26KZT AND 1EUR=440.86KZT)</span>
+ </p>
+<form >
+    <fieldset>
+       <p style="color: rgb(50, 50, 255);">Currency Convertor from our specialists</p>
+    <div style="margin-top: 3em; margin-left: 3em;">
+<select id="rate">
+<option disabled selected value="select">$,£,€</option>
+<option value="386.26">USD</option>
+<option value="440.86">EUR</option>
+</select>
+<br>
+<input style="padding:2em; border-radius: 5%; margin-top:2em" type="number" id="amount" placeholder="enter">
+<br>
+<input  style="padding:2em; border-radius: 5%; margin-top:2em" type="text" id="kzt" placeholder="outcome">
+</div>
+</form>
+<script  type="text/javascript" src="js/conv.js"></script>
+</body>
+</html>

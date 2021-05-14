@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="css/calc.css">
+        <script  type="text/javascript" src="js/calc.js"></script>
+        <title>Calculator by ZH</title>
+    </head>
+    <body>
+        <form name="case">
+        <div class="container">
+            <input style=" grid-column-start: 1;
+            grid-column-end: span 4;width: 98%;
+	height: 60px;
+	text-align: right;
+	font-size: 1.5rem;" name="display" id="display" value="">
+            <button class="btn" onclick="runC()">C</button>
+
+            <input type="button" id="multiply" 	class="btn" 	value="*" onclick="runMultiply()">
+            <input type="button" id="divide" 	class="btn" 	value="/" onclick="runDivide()" >
+            <input type="button" id="minus" 	class="btn" 	value="-" onclick="runMinus()" >
+            <input type="button" id="plus" 	    class="btn" 	value="+" onclick="runPlus()">
+            <input type="button" id="equal" 	class="btn"	    value="=" onclick="runEquals()">
+            
+            <input type="button" class="btn" value="1" onclick="run1()">
+            <input type="button" class="btn" value="2" onclick="run2()">
+            <input type="button" class="btn" value="3" onclick="run3()">
+            <input type="button" class="btn" value="4" onclick="run4()">
+            <input type="button" class="btn" value="5" onclick="run5()">
+            
+            <input type="button" class="btn" value="6" onclick="run6()">
+            <input type="button" class="btn" value="7" onclick="run7()">
+            <input type="button" class="btn" value="8" onclick="run8()">
+            <input type="button" class="btn" value="9" onclick="run9()">
+            <input type="button" class="btn" value="0" onclick="run0()">
+            
+          </div>
+          <input style="color: rgb(163, 163, 163);float: right; padding: 5em;margin-top: -22em;margin-right: 25em; width: 34%;height: 100px;" type="textarea"   value="Write and save your calculations!" >
+    </body>
+</html>

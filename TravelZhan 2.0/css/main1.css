@@ -1,0 +1,680 @@
+body::-webkit-scrollbar {
+	width: 0.5em;
+  }
+  
+  body::-webkit-scrollbar-track {
+	background: #ffffff;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+	background: #2c292f;
+  }
+.top{
+	width: 100%;
+	height: 110px;
+		background-color: #2c292f;
+
+}
+.logo{
+	float: left;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: white;
+	font-size: 180%;
+	margin-left: 1em;
+}
+.tsign{
+	float: left;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: white;
+	font-size: 90%;
+	margin-top: 3.4em;
+}
+.topbtn{
+	float: left;
+	text-align: center;
+	margin-top: 1.4em;
+	padding-left: 2em;
+	padding-top: 1em;
+	padding-right: 2em;
+	padding-bottom: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	margin-right: 2em;
+	border-radius: 7%;
+	margin-left: 50em;
+	background-color: #2c292f;
+	border-color: white;
+	color:white;
+}
+.dropbtn {
+	float: left;
+	text-align: center;
+	margin-top: 1.4em;
+	padding-left: 2em;
+	padding-top: 1em;
+	padding-right: 2em;
+	padding-bottom: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	border-radius: 7%;
+	cursor: pointer;
+	background-color: #2c292f;
+	border-color: white;
+	color:white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.inbtn{
+	float: left;
+	text-align: center;
+	margin-top: 1.4em;
+	padding-left: 2em;
+	padding-top: 1em;
+	padding-right: 2em;
+	padding-bottom: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	margin-right: 2em;
+	border-radius: 7%;
+	background-color:#2c292f;
+	border-color: white;
+	color:white;
+}
+.parallax {
+  background-image: url("https://cdn.wallpaperhi.com/1920x1080/20120421/water%20beach%20night%20architecture%20bar%20maldives%201920x1080%20wallpaper_www.wallpaperhi.com_48.jpg");
+  min-height: 850px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pard{
+	width: 23%;
+	float: right;
+	margin-right: 7em;
+	height: 600px;
+	background-color: azure;
+	margin-top: 5em;
+
+}
+.logo2{
+	float: left;
+	font-family: "Lato", Arial, sans-serif;
+	color:white;
+	font-size: 400%;
+	margin-left: 3em;
+	margin-top: 3em;
+}
+.m1logo{
+	float: left;
+	font-family: "Lato", Arial, sans-serif;
+	font-size: 150%;
+	margin-left: 1.5em;
+	margin-top: 2em;
+}
+.pardtxt{
+	font-size: 120%;
+	color: rgb(153, 153, 153);
+	float: left;
+	font-family: "Lato", Arial, sans-serif;
+}
+.pardtxt1{
+	font-size: 120%;
+	color: rgb(153, 153, 153);
+	margin-top: 2em;
+	float: left;
+	font-family: "Lato", Arial, sans-serif;
+}
+.pardedt{
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	float: left;
+	font-family: "Lato", Arial, sans-serif;
+	font-size: 120%;
+	color: rgb(153, 153, 153);
+}
+.pardedt1{
+	padding-left: 3.5em;
+	padding-right: 3.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	float: left;
+	font-family: "Lato", Arial, sans-serif;
+	font-size: 120%;
+	color: rgb(153, 153, 153);
+}
+.pardbtn{
+	padding-left: 5.1em;
+	padding-right: 5.1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	text-align: center;
+	background-color: rgb(61, 152, 255);
+	color: white;
+	float: left;
+	font-family: "Lato", Arial, sans-serif;
+	margin-top: 2em;
+	border-color:rgb(61, 152, 255) ;
+	border-radius: 3%;
+	font-size: 120%;
+}
+.alert{
+	width: 100%;
+	height: 80px;
+	background-color: rgb(61, 152, 255);
+}
+.alertxt{
+	font-family: Arial, Helvetica, sans-serif;
+	color: beige;
+	font-size: 100%;
+	 margin-top: 2em;
+	  float: left;
+	   margin-left: 3em;
+}
+.main2{
+	width: 100%;
+	height: 1700px;
+	background-color: rgb(232, 243, 255);
+}
+.main1{
+	margin: 10px 50px;
+	height: 500px;
+}
+.main1 img{
+	transition: 1s;
+	padding: 15px;
+	width: 200px;
+}
+.main1 img:hover{
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}
+.parallax1 {
+	background-image: url("https://images8.alphacoders.com/702/thumb-1920-702517.jpg");
+	min-height: 600px; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  .parallax1 p {
+	
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color:white;
+	font-size: 180%;
+	padding-top: 7em;
+	text-align: center;
+	
+  }
+  .parallax1 button{
+	padding-left: 1.7em;
+	padding-right: 1.7em;
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
+	text-align: center;
+	background-color: black;
+	opacity: 99%;
+	color: white;
+	float: left;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin-top: 2em;
+	border-color:black ;
+	border-radius: 30%;
+	font-size: 120%;
+	margin-left: 35em;
+	margin-top: 2em;
+	opacity: 0.7;
+    filter: alpha(opacity=90);
+  }
+  .vl{
+	margin-left: 14em;
+	float: left;
+	 border:2 em groove;
+	 border-color: aquamarine;
+	 border-radius: 3%;
+	 margin-bottom: 4em;
+  }
+.cr1{
+	width: 18%;
+	height: 130px;
+	background-color: rgb(101, 111, 255);
+	float: left;
+	margin-left: 2em;
+	margin-bottom: 0.5em;
+}
+.cr1 p{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 120%;
+	float: left;
+	margin-top: 2.7em;
+	margin-left: 1.2em;
+	color:white;
+}
+.cr2{
+	width: 30%;
+	height: 130px;
+	background-color: rgb(151, 158, 255);
+	float:right;
+}
+.cr2 p{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 500%;
+	float: right;
+	margin-top: 0.2em;
+	margin-right: 0.27em;
+	color:white;
+
+}
+.vr{
+	margin-right: 14em;
+	float: right;
+	 border:2 em groove;
+	 border-color: aquamarine;
+	 border-radius: 3%;
+	 margin-bottom: 4em;
+  }
+.cl1{
+	width: 18%;
+	height: 130px;
+	background-color: rgb(17, 202, 0);
+	float: right;
+	margin-right: 2em;
+	margin-bottom: 0.5em;
+}
+.cl1 p{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 120%;
+	float: right;
+	margin-top: 2.7em;
+	margin-right: 1.2em;
+	color:white;
+}
+.cl2{
+	width: 30%;
+	height: 130px;
+	background-color: rgb(75, 255, 99);
+	float:left;
+}
+.cl2 p{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 500%;
+	float: left;
+	margin-top: 0.2em;
+	margin-left: 0.27em;
+	color:white;
+
+}
+.vll{
+	margin-left: 14em;
+	float: left;
+	 border:2 em groove;
+	 border-color: aquamarine;
+	 border-radius: 3%;
+	 margin-bottom: 4em;
+  }
+.crr1{
+	width: 18%;
+	height: 130px;
+	background-color: rgb(255, 178, 62);
+	float: left;
+	margin-left: 2em;
+	margin-bottom: 0.5em;
+}
+.crr1 p{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 120%;
+	float: left;
+	margin-top: 2.7em;
+	margin-left: 1.2em;
+	color:white;
+}
+.crr2{
+	width: 30%;
+	height: 130px;
+	background-color: rgb(255, 196, 118);
+	float:right;
+}
+.crr2 p{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 500%;
+	float: right;
+	margin-top: 0.2em;
+	margin-right: 0.27em;
+	color:white;
+
+}
+footer{
+	position: fixed;
+	bottom: 0;
+}
+ 
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+ 
+ 
+.footer-distributed{
+	background-color: #2c292f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+.footer-distributed .footer-left{
+	width: 30%;
+}
+ 
+.footer-distributed h3{
+	margin: 0;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: white;
+	font-size: 180%;
+}
+ 
+ 
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+ 
+.footer-distributed h3 span{
+	color:  #0e00d6;
+}
+
+ 
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+	color:  #76b2ff;
+	text-decoration: none;;
+}
+ 
+.footer-distributed .footer-right{
+	width: 30%;
+}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+ 
+@media (max-width: 880px) {
+ 
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+ 
+}
+.prz{
+	width: 100%;
+	height: 150px;
+	background-image:url(https://st4.depositphotos.com/16036968/20155/i/1600/depositphotos_201552808-stock-photo-man-woman-photo-tourist-world.jpg);
+}
+.prz1{
+	width: 100%;
+	height: 20px;
+	margin-top: -2.1em;
+}
+.prz1 h3{
+	padding-top: 0.5em;
+	text-align: center;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 170%;
+	color: white;
+}
+.prz form{
+	margin-left: 8em;
+	color: white;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 120%;
+
+}
+.prz td{
+	padding-left: 0.3em;
+
+}
+.prz input{
+	padding-left: 2em;
+	padding-right: 9em;
+	padding-bottom: 0.7em;
+	padding-top: 0.7em;
+	border: 0.1em;
+	border-color: white;
+	border-radius: 2%;
+	color: silver;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 70%;
+
+}
+
+.prz button{
+	padding-left: 5em;
+	padding-right: 5em;
+	padding-bottom: 0.7em;
+	padding-top: 0.7em;
+	border: 0.1em;
+	border-color: white;
+	border-radius: 2%;
+	text-align: center;
+	color: white;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 80%;
+	background-color: rgb(119, 174, 255);
+
+}
+.maintxt{
+	margin-top: 3em;
+	width: 100%;
+	height: 900px;
+}
+.maintxt hr{
+	width: 70%;
+	border-style: inset;
+	border-width: 3px;
+	display: block;
+	border-radius: 1%;
+	
+}
+.hdr{
+	font-size: 170%;
+	font-family:  'Lucida Sans';
+	text-align: center;
+}
+.ht{
+	text-align: left;
+	font-family: 'Lucida Sans';
+	font-size: 100%;
+	padding-left: 15em;
+	padding-right: 15em;
+}
+.lmain{
+	width: 100%;
+	height: 700px;
+}
+.lmain img{
+	margin-left: 6em;
+	margin-top: 4em;
+}
+.hp1{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 100%;
+	padding-left: 5.8em;
+}
+.hp2{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 100%;
+	padding-right: 30.7em;
+	float: right;
+	margin-top: -2em;
+}
+.hp3{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 85%;
+	padding-left: 6.7em;
+}
+.hp4{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 85%;
+	padding-right: 22em;
+	float: right;
+	margin-top: -3.7em;
+}
+.lbtn1{
+	border-color:  rgb(53, 100, 255);
+	background-color: white;
+	color:  rgb(53, 100, 255);
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+	font-size: 120%;
+	border-radius: 7%;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	margin-left: 4.7em;
+	margin-top: 0.5em;
+}
+.lbtn2{
+	border-color:  rgb(53, 100, 255);
+	background-color: white;
+	color:  rgb(53, 100, 255);
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+	font-size: 120%;
+	border-radius: 7%;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	margin-left: 41.5em;
+	margin-top: -1em;
+}

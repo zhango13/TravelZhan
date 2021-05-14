@@ -1,0 +1,78 @@
+body::-webkit-scrollbar {
+	width: 0.5em;
+  }
+  
+  body::-webkit-scrollbar-track {
+	background: #ffffff;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+	background: #003cff;
+  }
+@media  only screen and (min-device-width: 768px) 
+{
+    .form-container {
+      padding: 5%;
+      background: #ffffff;
+      border: 5px solid ;            
+      width: 30%;
+      margin-left: 27em;
+      margin-top: 4em;
+      height: 520px;
+      margin-bottom: 2em;
+      border-color: rgb(95, 178, 255);
+      border-radius: 2%;
+    
+    }
+
+}
+
+h1 p{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+
+}
+
+label{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+input
+{
+  width: 100%;
+  margin-bottom: 2em;
+  padding-bottom: 0.5em;
+  border-radius: 3%;
+  text-align: left;
+  font-size: 80%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-top:0.5em;
+  padding-left: 0.3em;
+  
+
+}    
+
+button{
+  width: 100%;
+  border-radius: 2%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 90%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  background-color: rgb(95, 178, 255);
+  color: #ffffff;
+  border-color: rgb(95, 178, 255);
+  margin-top: 0.5em;
+
+}
+textarea
+{
+  width: 100%;
+  height: 200px;
+  border-radius: 2%;
+}
+

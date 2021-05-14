@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>HTML CSS FAQ Design | Webdevtrick.com</title>
+  <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+  <link rel="stylesheet" type="text/css" href="css/faq.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h2>Frequently Asked Questions</h2>
+  <div class="accordion">
+    <div class="accordion-item">
+      <a>What are the main functions of your company?</a>
+      <div class="content">
+        <p>The main functions of our company are making orders for trips and tours, do some recommendations for our clients and give other services that can make better your holidays.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <a>How you created your company?</a>
+      <div class="content">
+        <p>Once apon ago owner of our company had to do web development project work about tourism, then he decided to develop this idea and created this company.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <a>Who is TravelZhan company owner?</a>
+      <div class="content">
+        <p>The name of owner, creater and ruler of TravelZhan is ....TOP..SECRET....</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <a>How long is your company working?</a>
+      <div class="content">
+        <p>TravelZhan started it's functionality about 6 years ago and it still serving the needs of our clients.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <a>How to register?</a>
+      <div class="content">
+        <p>Go to the main page and press sign-in then in that form you will see the label "if you are not sign-up, press this".</p>
+	  </div>
+	  <div class="accordion-item">
+		<a>How I can calculate some pricez or other things?Do you have special applications?</a>
+		<div class="content">
+		  <p>In our site you may find special applications like calculator and calendar.</p>
+		</div>
+	  </div>
+	  <div class="accordion-item">
+		<a>What else you can tell?</a>
+		<div class="content">
+		  <p>When a humble bard Graced a ride along With Geralt of Rivia Along came this song</p>
+		</div>
+	  </div>
+	  <div class="accordion-item">
+		<a>What else you can tell?</a>
+		<div class="content">
+		  <p>When the White Wolf fought A silver tongued devil His army of elves At his hooves did they revel</p>
+		</div>
+	  </div>
+	  <div class="accordion-item">
+		<a>What else you can tell?</a>
+		<div class="content">
+		  <p>They came after me With masterful deceit Broke down my lute And they kicked in my teeth</p>
+		</div>
+	  </div>
+	  <div class="accordion-item">
+		<a>What else you can tell?</a>
+		<div class="content">
+		  <p>While the devil's horns Minced our tender meat And so cried the Witcher He can't be bleat</p>
+		</div>
+		<div class="accordion-item">
+			<a>What else you can tell?</a>
+			<div class="content">
+			  <p>Toss a coin to your Witcher Oh, valley of plenty Oh, valley of plenty, oh Toss a coin to your Witcher Oh, valley of plenty</p>
+			</div>
+		  </div>
+		  <div class="accordion-item">
+			<a>What else you can tell?</a>
+			<div class="content">
+			  <p>At the edge of the world Fight the mighty horde That bashes and breaks you And bring you the morn, oh</p>
+			</div>
+		  </div>
+		  <div class="accordion-item">
+			<a>What else you can tell?</a>
+			<div class="content">
+			  <p>He thrust every elf Far back on the shelf High up on the mountain From whence it came</p>
+			</div>
+		  </div>
+		  <div class="accordion-item">
+			<a>What else you can tell?</a>
+			<div class="content">
+			  <p>He wiped out your pest Got kicked in his chest He's a friend of humanity So give him the rest</p>
+			</div>
+		  </div>
+		  <div class="accordion-item">
+			<a>What else you can tell?</a>
+			<div class="content">
+			  <p>Toss a coin to your Witcher Oh, valley of plenty Oh, valley of plenty, oh Toss a coin to your Witcher Oh, valley of plenty....</p>
+			</div>
+			
+    </div>
+  </div>
+  
+  
+</div>
+
+<script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+<script>
+const items = document.querySelectorAll(".accordion a");
+
+function toggleAccordion(){
+  this.classList.toggle('active');
+  this.nextElementSibling.classList.toggle('active');
+}
+
+items.forEach(item => item.addEventListener('click', toggleAccordion));
+</script>
+
+
+</body>
+</html>
